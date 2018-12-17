@@ -224,18 +224,6 @@ def maximalepadsom(f):
     print(f.ccc[current_cluster])
 
 
-
-# appspot: 14x14 + 25 moves http://floodit.appspot.com/
-# lemoda.net: 14x14 + 25 moves https://www.lemoda.net/javascript/flood-it/index.html
-
-# Interesting papers
-# http://www.bris.ac.uk/news/2010/6945.html
-# http://floodit.cs.bris.ac.uk/
-# http://www.cs.bris.ac.uk/~montanar/papers/floodit.pdf
-# http://markgritter.livejournal.com/tag/floodit
-# http://people.maths.ox.ac.uk/scott/Papers/floodit.pdf
-# http://www.update.uu.se/~shikaree/Westling/
-
 def run_algorithm(mode, field):
     # some more less relevant params
     field_size = 20
@@ -281,7 +269,7 @@ if __name__ == "__main__":
 
     mode = 60
 
-    # Some interesting intial fields from field_data.ini 
+    # Some interesting initial fields from field_data.ini 
     # field = "h-4-6"           
     # field = "struct_2"
     # field = "h-6-8"
