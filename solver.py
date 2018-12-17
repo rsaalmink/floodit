@@ -6,9 +6,6 @@ import floodIt
 import tools as ts
 import random
 
-def nothing(f):
-    pass
-
 def dfs(f):
     print("--- Backtracking dfs ---")
     result = f.dfs(set([f.field_to_cluster[(0, 0)]]), 1, [f.data[0][0]])
@@ -123,6 +120,9 @@ def greedy_clusters(f):
 
 def backedges(f):
     f.backedges()
+
+def nothing(f):
+    pass
 
 def shortest_paths_find_scs(f):
     sequences = []
